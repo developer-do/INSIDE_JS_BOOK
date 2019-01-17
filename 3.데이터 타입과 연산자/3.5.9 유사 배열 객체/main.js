@@ -22,4 +22,7 @@ console.log(arr1);
 
 Array.prototype.push.apply(obj1, ['baz']);
 console.log(obj1);
+console.log(obj1.length);
+console.log(obj1[1], obj1[2]);
+
 
