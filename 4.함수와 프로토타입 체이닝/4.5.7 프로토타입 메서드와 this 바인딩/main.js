@@ -13,10 +13,11 @@ Person.prototype.getName = function () {
 // foo 객체 생성
 var foo = new Person('foo');
 console.log(foo.getName());
-
+console.log(Person.prototype.getName());
 // Person.prototype 객체에 name 프로퍼티 동적 추가
 Person.prototype.name = 'person';
 
 console.log(Person.prototype.getName());
 
 console.dir(Person);
+console.log(foo.name);
